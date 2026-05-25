@@ -1,0 +1,66 @@
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+    letter-spacing: 0.3px;
+}
+
+.note-card {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.note-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.note-preview {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.note-content {
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #333;
+}
+
+.empty-state {
+    color: #adb5bd;
+}
+
+.empty-state .display-1 {
+    font-size: 5rem;
+    opacity: 0.4;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-title a:hover {
+    color: #0d6efd !important;
+}
+
+.btn-sm {
+    border-radius: 6px;
+}
+
+textarea.form-control {
+    min-height: 200px;
+    resize: vertical;
+    font-family: 'Georgia', serif;
+}
+
+.alert {
+    border-radius: 8px;
+}
